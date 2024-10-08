@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #E7E7E7;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    
+    top: 0;
+    left: 0;
+    object-fit: cover; 
+    z-index: -1; 
+    opacity: 0.43;
+    
+}
+
+
+.header-container {
+    height: 119px;
+    width: 100%;
+    position: fixed;
+    display: inline-flex;
+}
+
+.header-logo {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background-color: #84DA15;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+li a {
+    color: #FFFFFF;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-flex;
+    padding: 3cap;
+    text-align:left;
+}
+
+li:first-child {
+    margin-left: 13%;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.login-button {
+    width: 100px;
+    height: 30px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: black; 
+    
+    position: absolute; 
+    top: 30px; 
+    right: 50px; 
+}
+
+
+.line {
+    position: relative;
+    width: 1200px;
+    height: 1px;
+    background-color: #FFFFFF;
+    border-top: 1px solid rgb(255, 255, 255);
+    margin-left: 10%;
+    margin-top: -0.5%;
+}
+
+.image-donation{
+    width: 400px;
+    height: 400px;
+    background-color: #939393;
+    background-image: url('../img/donation.webp');
+    margin-top: 6%;
+    margin-left: 16%;    border-radius: 50%;
+    margin-bottom: 6%;
+}
+.background-image-donation{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: #84DA15;
+    margin-top: -38%;
+    margin-left: 10%;
+    z-index: -1;
+    border-radius: 50%;
+}
+.second-background-image-donation{
+    position: absolute;
+    background-image: url('../img/howDonate.jpeg');
+    width: 200px;
+    height: 200px;
+    margin-top: -18%;
+    margin-left: 37%;
+    z-index: -2;
+    border-radius: 50%;
+}
+.time-icon{
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    margin-top: -20%;
+    opacity: 1;
+}
+.all-container{
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 56%;
+}
+.title{
+    color: #68AA10;
+    font-weight: 600;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.p3, .p4 , .p5, .p6{
+    width: 400px;
+    font-size: 14px;
+}
+
+.how-donate-container{
+    position: relative;
+    background-color: #84DA15;
+    margin-top: 2.5%;
+    height: 350px;
+    
+}
+
+.p7{
+    font-family: "SUSE";
+    text-align: center;
+    padding: 2cap;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 2%;
+    
+}
+.p8,.p9,.p10,.p11,.p12{
+    width: 200px;
+    height: 77;
+    color: #373737;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 8%;
+    font-size: 14px;
+    text-align: center;
+}
+.p8{
+    margin-left: 12%;
+}
+.p9{
+    margin-left: 32%;
+}
+.p10{
+    margin-left: 52%;
+}
+.p11{
+    margin-left: 72%;
+}
+.user-icon, .donation-icon, .delivery-icon,.box-icon,.family-icon{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-top: 8%;
+    z-index: 2;
+    opacity: 100%;
+}
+.user-icon{
+    margin-left: 17.5%;
+}
+.donation-icon{
+    margin-left: 37.5%;
+}
+.delivery-icon{
+    margin-left: 57%;
+}
+.box-icon{
+    margin-left: 77%;
+}
