@@ -131,3 +131,57 @@ button{
     padding-left: 0.65cap;
     padding-top: 0.5cap;
 }
+.add{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+    margin-top: 5%;
+    border: 2px solid #84DA15;
+    margin-left: 85%;
+}
+h2{
+    margin-left: 3%;
+    margin-top: 2%;
+    padding-top: 1cap;
+}
+.container-users{
+    display: flex;
+    margin-top: 2%;
+    flex-direction: column;
+    margin-left: 2%;
+    width: 1000px;
+    height: 1000px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+.img-button{
+    width: 30px;
+    height: 30px;
+    margin-left: 4px;
+    margin-top: 2px;
+}
+.user-data {
+    display: flex;
+    margin: 10px 0; /* Ajuste conforme necessário */
+}
+.user-data-base,.user-data-base-first{
+    position:static;
+    display: flex;
+    flex: 1; 
+    text-align: center; 
+}
+.user-data-base-first{
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.user-data-base{
+    margin-left: -6%;
+    margin-top: 3%;
+}
+.line-cont{
+    background-color: #dfdfdf;
+    width: 1000px;
+    height: 1px;
+}
