@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/dashboards.css">
+</head>
+
+<body>
+    <div class="nav-bar-container">
+        <div class="logo"></div>
+        <div class="dashboard-line"></div>
+        <div class="container-white-dashboard" id="dashboardNav">
+            <div class="container-icon">
+                <img class="nav" src="../img/Performance Macbook.svg">
+                <p>Dashboard</p>
+            </div>
+        </div>
+        <div class="container-white-user" id="userNav">
+            <div class="container-icon" >
+                <img class="nav" src="../img/User-nav.svg">
+                <p>Usuários</p>
+            </div>
+        </div>
+        <div class="container-white-catastrofes">
+            <div class="container-icon" id="catastrofes-nav">
+                <img class="nav" src="../img/Tornado.svg">
+                <p>Catástrofes</p>
+            </div>
+        </div>
+        <div class="container-white-doacoes">
+            <div class="container-icon" id="dashboard-nav">
+                <img class="nav" src="../img/Successful Delivery.svg">
+                <p>Doações</p>
+            </div>
+        </div>
+        <div class="container-white-delivery" id="delivery-nav">
+            <div class="container-icon">
+                <img class="nav" src="../img/Truck-nav.svg">
+                <p>Entregas</p>
+            </div>
+        </div>
+        <p2>Páginas</p2>
+        <div class="container-white-pages" id="main-user-nav">
+            <div class="container-icon">
+                <img class="nav" src="../img/User-nav.svg">
+                <p>Perfil</p>
+            </div>
+        </div>
+        <div class="container-white-logout" id="logout-nav">
+            <div class="container-icon">
+                <img class="nav" src="../img/Logout.svg">
+                <p>Sair</p>
+            </div>
+        </div>
+    </div>
+    <div class="dashboards-container">
+        <div class="top-board-container">
+            <nav>
+                <ul>
+                    <li><a herf='#'>Admin/</a></li>
+                    <li><a herf='../html/dashboards.html'><STRONG>Dashboards</STRONG></a></li>
+                </ul>
+            </nav>
+            <h1>Dashboards</h1>
+        </div>
+        <input type="text" placeholder="Pesquise aqui">
+        <button>VERSÃO USUÁRIO</button>
+        <div class="donation-today-container">
+            <p3>Doações Hoje</p3>
+            <div class="today-container">
+                <img class='today' src="../img/Successful Delivery.svg">
+            </div>
+        </div>
+        <div class="users-today-container">
+            <p3>Usuários Hoje</p3>
+            <div class="today-container">
+                <img class='today' src="../img/User-nav.svg">
+            </div>
+        </div>
+        <div class="delivery-today-container">
+            <p3>Entregas Hoje</p3>
+            <div class="today-container">
+                <img class='today' src="../img/Truck-nav.svg">
+            </div>
+        </div>
+        <div class="dashboard-delivery">
+            <p class="visao-geral-delivery">Visões Gerais</p>
+            <p class="filtro">Filtro</p>
+            <h2 class="titulo-delivery">Entregas</h2>
+            <select div class="filtro-delivery">
+                <option>Diário</option>
+                <option>Semanal</option>
+                <option>Mensal</option>
+                <option>Trimestral</option>
+                <option>Semestral</option>
+                <option>Anual</option>
+            </select>
+            <div class="legenda-containter">
+                <div class="entregas-concluidas"></div>
+                <div class="entregas-concluidas"></div>
+                <div class="entregas-concluidas"></div>
+                <div class="entregas-concluidas"></div>
+            </div>
+        </div>
+        <div class="catastrofes-containter">
+            <h2 div class="titulo-catastrofes">Catástrofes</h2>
+        </div>
+        <div class="users-container">
+            <div class="users-grafico-container"></div>
+            <p class="título-users">Usuários Ativos</p>
+            <p class="total-users">Usuários Totais</p>
+            <p class="filtro-titulo-users">Filtro</p>
+            <select class="users-filtro">
+                <option>Diário</option>
+                <option>Semanal</option>
+                <option>Mensal</option>
+                <option>Trimestral</option>
+                <option>Semestral</option>
+                <option>Anual</option>
+            </select>
+        </div>
+        <div class="container-doacoes-dashboard">
+            <p class="visao-geral-doacoes">Visões Gerais</p>
+            <h2 class="titulo-doacoes">Doações</h2>
+            <p class="filtro-titulo-donations">Filtro</p>
+            <select class="donations-filtro">
+                <option>Diário</option>
+                <option>Semanal</option>
+                <option>Mensal</option>
+                <option>Trimestral</option>
+                <option>Semestral</option>
+                <option>Anual</option>
+            </select>
+        </div>
+        <div class="container-fast-view">
+            <div class="container-icons">
+                <img class="user-icon" src="../img/User-nav.svg">
+            </div>
+            <div class="container-icons">
+                <img class="user-icon" src="../img/Tornado.svg">
+            </div>
+            <div class="container-icons">
+                <img class="user-icon" src="../img/Successful Delivery.svg">
+            </div>
+            <div class="container-icons">
+                <img class="user-icon" src="../img/Truck-nav.svg">
+            </div>
+        </div>
+        <div class="continaer-visoes-detalhadas">
+            <p class="visoes-detalhadas">Visões Detalhadas</p>
+            <h2 class='título-visoes-detalhadas'>Entregas</h2>
+            <div class="container-options">
+                <p4>Código de Rastreio</p4>
+                <p5>Doador</p5>
+                <p5>CEP Doador</p5>
+                <p5>Destinatário</p5>
+                <p5>CEP Destinatário</p5>
+                <p5>Item</p5>
+                <p5>Data</p5>
+                <p5>Status</p5>
+            </div>
+            <div class="line"></div>
+        </div>
+    </div>
+    <script src="../js/admin-nav.js"></script>
+</body>
+
+</html>
