@@ -44,7 +44,7 @@ img {
     height: 85px;
     margin-left: 1.45%;
     margin-top: 1.4%;
-    position: fixed; 
+    position: absolute; 
     object-fit: cover; 
     z-index: 2; 
     opacity: 2;
@@ -164,7 +164,7 @@ h1{
    margin-left: 51.3%;
    margin-top: -31%;
 }
-.user-icon-container,.donation-icon-container{
+.user-icon-container,.donation-icon-container, .delivery-icon-container{
     position: absolute;
     background-color: transparent;
     width: 250px;
@@ -179,6 +179,11 @@ h1{
 .donation-icon-container{
     margin-top:15%;
     margin-left: -35%;
+}
+.delivery-icon-container{
+    margin-top: 15%;
+    margin-left: -10%;
+
 }
 .how-donate-container{
     position: relative;
@@ -230,6 +235,9 @@ p2{
 .DOE{
     margin-left: 42%;
 }
+.entregue{
+    margin-left: 30%;
+}
 .user-icon, .donation-icon, .delivery-icon,.box-icon,.family-icon{
     position: absolute;
     width: 70px;
@@ -245,10 +253,86 @@ p2{
     margin-left: 37.5%;
 }
 .delivery-icon{
-    margin-left: 57%;
+    margin-left: 37%;
 }
 .box-icon{
     margin-left: 77%;
+}
+
+.dashboard-donation-info{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    background-color: #373737;
+    margin-top: 45%;
+}
+.text-img-titulo{
+    justify-content: center;
+    text-align: center;
+    padding-top: 2cap;
+    color: #ffffff;
+    font-family: 'SUSE';
+    font-weight: 600;
+    font-size: 30px;
+}
+.text-img-subtitulo{
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.donate-button{
+    background-color: #ffffff;
+    color: #84DA15;
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 42.5%;
+    margin-top: 2%;
+    border-radius: 15px;
+}
+.container-info-dados{
+    display: flex;
+    position: absolute;
+    background-color: #ffffff;
+    width: 1000px;  
+    height: 200px;
+    margin-left: 11%;
+    margin-top: 5%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+h3{
+    font-size: 50px;
+    margin-left:30%;
+}
+.title-padok{
+    position: absolute;
+}
+.padok-1, .padok{
+    width: 350px;
+    margin-top: 5%;
+}
+.padok-1{
+    margin-left: 12%;
+}
+.padok-text-1{
+    margin-left: -5%;
+}
+.padok-title-3{
+    margin-left: 25%;
+}
+.padok-text{
+    width: 200px;
+    margin-left: 6%;
+}
+.line-padok{
+    width: 200px;
+    height: 1px;
+    background-color: #84DA15;
+    transform: rotate(90deg);
+    margin-right: 3%;
+    margin-top: 11%;
 }
 ::-webkit-scrollbar {
     width: 10px; /* Largura da scrollbar */

@@ -28,7 +28,7 @@ body{
     margin-left: 10%;
     margin-top: 6%;
 }
-.container-white-user{
+.container-white-delivery{
     position: relative;
     width: 261px;
     height: 50px;
@@ -48,6 +48,7 @@ body{
     margin-left: 6%;
     margin-top: 3%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    
 }
 p{
     position: absolute;
@@ -58,7 +59,7 @@ p{
     font-weight: 600;
     font-size: 14px;
 }
-.container-white-catastrofes,.container-white-doacoes,.container-white-delivery,.container-white-pages,.container-white-logout{
+.container-white-user,.container-white-catastrofes,.container-white-pages,.container-white-logout{
     position: relative;
     width: 261px;
     height: 50px;
@@ -74,6 +75,17 @@ p{
     margin-top: 10.5%;
     margin-left: 9%;
     cursor: pointer;
+}
+
+.container-white-user, .container-white-catastrofes, .container-white-doacoes{
+    width: 261px;
+    height: 25px;
+    margin-top: 10.5%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.container-white-doacoes{
+    margin-left: 9%;
 }
 p2{
     display: flex;
@@ -164,7 +176,7 @@ h2{
 }
 .user-data {
     display: flex;
-    margin: 10px 0; /* Ajuste conforme necessário */
+    margin: 10px 20px; /* Ajuste conforme necessário */
 }
 .user-data-base,.user-data-base-first{
     position:static;
@@ -177,7 +189,7 @@ h2{
     margin-top: 3%;
 }
 .user-data-base{
-    margin-left: -6%;
+    margin-left: -4%;
     margin-top: 3%;
 }
 .line-cont{
@@ -185,3 +197,16 @@ h2{
     width: 1000px;
     height: 1px;
 }
+p4{
+    font-size: 14px;
+    color:#686868;
+    font-weight: 600;
+    margin-left: 2%;
+    margin-top: 4%;
+}
+p5{
+    margin-top: 4%;
+     font-size: 14px;
+    color:#686868;
+    font-weight: 600;margin-right: 2%;
+margin-left: 3%;}

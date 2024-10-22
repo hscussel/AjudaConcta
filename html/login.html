@@ -1,47 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/login.css">
 </head>
-
 <body>
-    <div class="background"></div>
-    <div class="logo"></div>
-    <h1>Fazendo login na sua conta</h1>
-    <p class="subtitle">Bem-vindo de volta! Selecione o método de login</p>
-    <div class="google-container">
-        <img src='../img/google-icon-logo.svg' class="google-icon">
-        <button id="loginButton" class="google-button">Google</button>
-
+    <div class="container-img">
+        <img class="background">
+        <div class="logo"></div>
+        <p><STRONG>AJUDA</STRONG><br><i>CONECTA</i></p>
+        <h2>Olá,</h2><h1>Bem-Vindo!</h1>
+        <button class="login-window">Log in</button>
+        <button class="singup-window">Sing Up</button>
     </div>
-    <div class="facebook-container">
-        <img src="../img/2023_Facebook_icon.svg.webp" class="facebook-icon">
-        <button class="facebook-button">Facebook</button>
-
-    </div>
-    <div class="line-before"></div>
-    <p class="email-text"> ou continue com e-mail</p>
-    <div class="line-after"></div>
-    <form>
-        <div class="email-container">
-            <img class="email-icon" src="../img/EmailGreen.svg">
-        </div>
-        <input class="email-input" type="text" placeholder="E-mail">
-        <div class="password-container">
-            <img class="password-icon" src="../img/Password.svg">
-        </div>
-        <input class="password-input" type="password" placeholder="Senha">
+    <div class="container-content">
+        <h3>Selecione o método de Login</h3>
+        <p1>Preencha os dados abaixo para entrar</p1><br>
+        <input type="text"placeholder='E-mail'><br>
+        <input type="password" placeholder="Senha"><br>
         <input type="checkbox">
-        <p class="remember-me">Lembrar-me</p>
-        <p class="password-forget">Esqueceu sua senha?</p>
-        <button class="log-in">Log in</button>
-        <p class="not-accounted">Não possui uma conta?</p>
-        <p class="create-account">Crie a sua agora</p>
-    </form>
+        <p1 class="remember-me">Lembrar-me</p1>
+        <p1 class="forgot-password">Esqueceu sua senha?</p1><br>
+        <button class="enter-login">LOGIN</button>
+        <div class="line"></div>
+        <p1 class="ou">Ou</p1>
+        <div class="line-2"></div>
+        <div class="google">
+            <img class="google-icon" src="../img/google-icon-logo.svg">
+        </div>
+        <div class="facebook">
+            <img class="facebook-icon" src="../img/2023_Facebook_icon.svg.webp">
+        </div>
+    </div>
 </body>
-
 </html>

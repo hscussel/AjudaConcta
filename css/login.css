@@ -1,175 +1,204 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+* {
     padding: 0;
     margin: 0;
     font-family: "Poppins", sans-serif;
+    overflow-y: hidden;
 }
-body{
-    background-color: #E7E7E7;
+
+body {
+    background-color: #F8F9FA;
 }
-.background{
-    position: absolute;
-    background-image: url('../img/Login Page PHOTO.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
-    height: 100%;
-    background-color: #414141;
-    margin-left: 50%;
-    margin-top: -2%;
-}
-.background:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(to bottom, rgba(104, 104, 104, 0.6), rgba(65, 65, 65, 0.85));
-    z-index: 1; 
-}
-.logo{
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
+
+.container-img {
     background-color: #84DA15;
-    margin-left: 2%;
-    margin-top: 2%;
+    width: 45%;
+    height: 100vh;
 }
-h1{
-    margin-top: -1%;
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: 14%;
+    margin-top: 10%;
 }
-h1,form,p,.google-button{
-    margin-left: 10%;
-}
-.subtitle{
-    justify-content: center;
-    margin-left: 11.5%;
-}
-.google-icon{
+
+p {
+    font-family: 'SUSE';
     position: absolute;
-    width: 25px;
-    height: 25px;
-    margin-top: 3.6%;
-    margin-left: 12%;
+    margin-left: 11%;
+    margin-top: -3.6%;
+    color: #fff;
+    font-size: 16px;
 }
-.facebook-icon{
+
+h1,
+h2 {
+    color: #fff;
+    margin-left: 14%;
+}
+
+h2 {
+    margin-top: 25%;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.login-window {
     position: absolute;
-    width: 27px;
-    height: 27px;
-    margin-top: -2.5%;
-    margin-left: 32%;
-}
-.google-button, .facebook-button{
-    background-color: transparent;
-    border: 1px solid #A9A9A9;
-    border-radius: 5px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 18px;
+    margin-left: 37.8%;
     margin-top: 3%;
-    width: 170px;
-    height: 40px;
-    font-size: 14px;
-    padding-left: 3cap;
     cursor: pointer;
+    background-color: #F8F9FA;
+    font-weight: 600;
 }
-.facebook-button{
+
+.singup-window {
     position: absolute;
-    margin-left: 30.5%;
-    margin-top: -2.95%;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 18px;
+    margin-left: 37.8%;
+    margin-top: 7%;
+    cursor: pointer;
+    background-color: transparent;
+    font-weight: 600;
+    color: #fff;
 }
-.line-before,.line-after{
-    position: absolute;
-    width: 112px;
-    height: 2px;
-    background-color: #414141;
+
+.container-content {
+    display: block;
+    margin-left: 45%;
+    margin-top: -46.5%;
+    height: 100vh;
+    background-color: transparent;
+    text-align: center;
+    justify-content: center;
 }
-.line-before{
-    margin-top: 4.4%;
-    margin-left: 8%;
+
+h3 {
+    margin-top: 15%;
+    font-size: 30px;
 }
-.email-text{
-    padding: 2cap;
-    margin-left: 16.5%;
+
+input[type='password'],
+input[type='text'] {
     margin-top: 2%;
-}
-.line-after{
-    margin-top: -2.45%;
-    margin-left: 34%;
-}
-.email-input,.password-input{
     width: 350px;
     height: 40px;
-    margin-left: 4.7%;
-    display: block;
-    margin-bottom: 2%;
-    margin-top: 1%;
-    border: none;
     border-radius: 5px;
+    border: none;
+    font-size: 16px;
 }
-input[placeholder]{
-    padding-left: 1cap;
+
+input[type='text'] {
+    margin-top: 5%;
+}
+
+input[placeholder] {
+    padding-left: 2cap;
+}
+
+input[type='password'] {
+    margin-bottom: 2%;
+}
+
+input[type='checkbox'] {
+    position: fixed;
+    margin-left: -13.5%;
+}
+
+p1 {
     font-size: 14px;
 }
-.email-container,.password-container{
-    position: absolute;
-    background-color: #ffff;
-    width: 40px ;
-    height: 40px;
-    margin-left: 1.5%;
-    border-top-left-radius: 5px;
-    z-index: -1;
+
+.remember-me {
+    position: fixed;
+    margin-left: -12%;
+    margin-top: -0.2%;
 }
-.email-icon,.password-icon{
-    padding-top: 0.6cap;
-    padding-left: 0.5cap;
+
+.forgot-password {
+    position: fixed;
+    color: #84DA15;
+    margin-left: 2.5%;
+}
+
+.enter-login {
+    margin-top: 5%;
+    width: 300px;
+    border: none;
+    background-color: #84DA15;
+    border-radius: 5px;
+    font-weight: 500;
+    height: 35px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.line,
+.line-2 {
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    background-color: #d1d1d1;
+
+}
+
+.line {
+    margin-top: 3.5%;
+    margin-left: 10%;
+}
+
+.line-2 {
+    margin-top: 3.5%;
+    margin-left: 32%;
+}
+
+.ou {
+    position: absolute;
+    margin-top: 7.8%;
+    margin-left: -11.5%;
+    font-size: 16px;
+}
+.google, .facebook{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid #84DA15;
+    cursor: pointer;
+}
+.google{
+    margin-top: 12%;
+    margin-left: 43%;
+}
+.facebook{
+    margin-left: 52%;
+    margin-top: -7%;
+}
+.google-icon,.facebook-icon{
+    margin-top: 18%;
     width: 30px;
     height: 30px;
-}
-.password-icon{
-    padding-left: 0.4cap;
-}
-input[type='checkbox']{
-    position: absolute;
-    margin-top: -0.6%;
-    margin-left: 1.5%;
-}
-
-.remember-me{
-    font-size: 14px;
-    margin-top: -0.9%;
-    margin-left: 3.5%;
-}
-
-.password-forget{
-    font-size: 14px;
-    margin-top: -1.6%;
-    margin-left: 21.5%;
-    color: #76C213;
     cursor: pointer;
-}
-.log-in{
-    width: 351px;
-    height: 45px;
-    margin-top: 3.5%;
-    margin-left: 3.5%;
-    background-color: #84DA15;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
-    cursor: pointer;
-    margin-bottom: 1.5%;
-}
-.not-accounted{
-    margin-left: 6%;
-    font-size: 14px;
-}
-.create-account{
-    position: absolute;
-    margin-top: -1.5%;
-    margin-left: 17.7%;
-    color: #4C7C0B;
-    font-weight: 500;
-    cursor: pointer;
-    font-size: 14px;
 }
