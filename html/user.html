@@ -68,7 +68,7 @@
         </div>
         <input type="text" placeholder="Pesquise aqui">
         <button>VERSÃO USUÁRIO</button>
-        <button class="add"><img class="img-button" src="../img/Add User Male.svg"></button>
+        <button class="add"><img class="img-button" src="../img/Add User Male.svg" id='openModalButton'></button>
         <div class="container-users">
             <h2>Lista de Usuários</h2>
             <div class="user-data">
@@ -80,7 +80,25 @@
             </div>
             <div class="line-cont"></div>
         </div>
-       
+        <div id="overlay" class="overlay">
+            <div class="modal">
+                <h4>Cadastrar Novo Usuário</h4>
+                <form id="userForm">
+                    <label for="username">Nome</label>
+                    <input class="nome" type="text" id="username" name="username" required><br>
+
+                    <label for="cpf">CPF</label>
+                    <input class="CPF" type="number" id="username" name="username" required><br>
+
+                    <label for="cpf">CPF</label>
+                    <input class="CPF" type="number" id="username" name="username" required><br>
+                </form>
+
+            </div>
+        </div>
+        
 </body>
 <script src="../js/admin-nav.js"></script>
+<script src="../js/overlay.js"></script>
+
 </html>

@@ -104,6 +104,7 @@ button {
     height:100vh;
     background-image: url('../img/donation.webp');
     margin-top: -6%;
+    opacity: 1;
 }
 h1{
     font-family: "SUSE";
@@ -164,7 +165,7 @@ h1{
    margin-left: 51.3%;
    margin-top: -31%;
 }
-.user-icon-container,.donation-icon-container, .delivery-icon-container{
+.user-icon-container,.donation-icon-container, .delivery-icon-container, .family-icon-container{
     position: absolute;
     background-color: transparent;
     width: 250px;
@@ -174,16 +175,21 @@ h1{
 }
 .user-icon-container{
     margin-top:15%;
-    margin-left: -60%;
+    margin-left: -64%;
 }
 .donation-icon-container{
     margin-top:15%;
-    margin-left: -35%;
+    margin-left: -40.5%;
 }
 .delivery-icon-container{
     margin-top: 15%;
-    margin-left: -10%;
+    margin-left: -17%;
 
+}
+.family-icon-container{
+    margin-top: 15%;
+    margin-left: 6%;
+    opacity: 100%;
 }
 .how-donate-container{
     position: relative;
@@ -255,8 +261,8 @@ p2{
 .delivery-icon{
     margin-left: 37%;
 }
-.box-icon{
-    margin-left: 77%;
+.family-icon{
+    margin-left: 39%;
 }
 
 .dashboard-donation-info{
