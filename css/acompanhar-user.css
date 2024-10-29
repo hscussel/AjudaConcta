@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #F8F9FA;
+    overflow-x: hidden;
+}
+.nav-bar-container{
+    width: 334px;
+    position: fixed;
+
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    background-color: #84DA15;
+    border-radius: 50%;
+    margin-left: 35%;
+    margin-top: -2%;
+}
+.dashboard-line{
+    background-color: #d1d1d1;
+    height: 2px;
+    width: 261px;
+    margin-left: 10%;
+    margin-top: 6%;
+}
+.container-white-delivery{
+    position: relative;
+    width: 261px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 10%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.container-icon{
+    position: absolute;
+    background-color: #84DA15;
+    width: 38px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 6%;
+    margin-top: 3%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    
+}
+p{
+    position: absolute;
+    display: inline;
+    padding-left: 2cap;
+    padding-top: 0.8cap;
+    color: #686868;
+    font-weight: 600;
+    font-size: 14px;
+}
+.container-white-user,.container-white-catastrofes,.container-white-pages,.container-white-logout{
+    position: relative;
+    width: 261px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+.container-white-dashboard{
+    width: 261px;
+    height: 25px;
+    margin-top: 10.5%;
+    margin-left: 9%;
+    cursor: pointer;
+}
+
+.container-white-user, .container-white-catastrofes, .container-white-doacoes{
+    width: 261px;
+    height: 25px;
+    margin-top: 10.5%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.container-white-doacoes{
+    margin-left: 9%;
+}
+p2{
+    display: flex;
+    margin-left: 12%;
+    padding-top: 2cap;
+    color: #000;
+    font-weight: 700;
+}
+.dashboards-container{
+    position: relative;
+    width: 1107px;
+    height: 100%;
+    margin-left: 23.1%;
+    margin-top: 2%;
+}
+li{
+    display: inline;
+    color: #686868;
+}
+li:first-child{
+    font-weight: 300;
+    margin-left: 3%;
+}
+h1{
+    margin-left:3%;
+}
+input, button{
+    position: absolute;
+}
+input{
+    width: 256px;
+    height: 36px;
+    margin-left: 65%;
+    border-radius: 10px;
+    border: none;
+    margin-top: -6%;
+}
+input[placeholder]{
+    padding-left: 2cap;
+}
+button{
+    width: 182px;
+    height: 36px;
+    margin-left: 75%;
+    margin-top: -6%;
+    border: 2px solid #84DA15;
+    border-radius: 10px;
+    color: #84DA15;
+    font-weight: 600;
+    background-color: transparent;
+}
+.nav{
+    width: 23px;
+    height: 23px;
+    padding-left: 0.65cap;
+    padding-top: 0.5cap;
+}
+.add{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+    margin-top: 5%;
+    border: 2px solid #84DA15;
+    margin-left: 85%;
+}
+h2{
+    margin-left: 3%;
+    margin-top: 2%;
+    padding-top: 1cap;
+}
+.container-users{
+    display: flex;
+    margin-top: 2%;
+    flex-direction: column;
+    margin-left: 2%;
+    width: 1050px;
+    height: 1000px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+.img-button{
+    width: 30px;
+    height: 30px;
+    margin-left: 4px;
+    margin-top: 2px;
+}
+.user-data {
+    display: flex;
+    margin: 10px 20px; 
+}
+.user-data-base,.user-data-base-first{
+    position:static;
+    display: flex;
+    flex: 1; 
+    text-align: center; 
+}
+.user-data-base-first{
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.user-data-base{
+    margin-left: -4%;
+    margin-top: 3%;
+}
+.line-cont{
+    background-color: #dfdfdf;
+    width: 1050px;
+    height: 1px;
+}
+p4{
+    font-size: 14px;
+    color:#686868;
+    font-weight: 600;
+    margin-left: 2%;
+    margin-top: 4%;
+}
+p5{
+    margin-top: 4%;
+     font-size: 14px;
+    color:#686868;
+    font-weight: 600;margin-right: 2%;
+margin-left: 3%;}
