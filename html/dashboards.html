@@ -72,18 +72,21 @@
             <p3>Doações Hoje</p3>
             <div class="today-container">
                 <img class='today' src="../img/Successful Delivery.svg">
+                <h3 class="today-text">0</h3>
             </div>
         </div>
         <div class="users-today-container">
             <p3>Usuários Hoje</p3>
             <div class="today-container">
                 <img class='today' src="../img/User-nav.svg">
+                <h3 class="today-text">0</h3>
             </div>
         </div>
         <div class="delivery-today-container">
             <p3>Entregas Hoje</p3>
             <div class="today-container">
                 <img class='today' src="../img/Truck-nav.svg">
+                <h3 class="today-text">0</h3>
             </div>
         </div>
         <div class="dashboard-delivery">
@@ -99,10 +102,18 @@
                 <option>Anual</option>
             </select>
             <div class="legenda-containter">
-                <div class="entregas-concluidas"></div>
-                <div class="entregas-concluidas"></div>
-                <div class="entregas-concluidas"></div>
-                <div class="entregas-concluidas"></div>
+                <div class="entregas-concluidas" id="circulo-1">
+                    <p class="grafico-filtro">Concluídas</p>
+                </div>
+                <div class="entregas-concluidas" id="circulo-2">
+                    <p class="grafico-filtro">Em Preparação</p>
+                </div>
+                <div class="entregas-concluidas" id="circulo-3">
+                    <p class="grafico-filtro">Em Andamento</p>
+                </div>
+                <div class="entregas-concluidas" id="circulo-4">
+                    <p class="grafico-filtro">Canceladas</p>
+                </div>
             </div>
         </div>
         <div class="catastrofes-containter">
@@ -111,7 +122,9 @@
         <div class="users-container">
             <div class="users-grafico-container"></div>
             <p class="título-users">Usuários Ativos</p>
+            <h3 class="user-atv-text">3</h3>
             <p class="total-users">Usuários Totais</p>
+            <h3 class="user-atv-text-2">3</h3>
             <p class="filtro-titulo-users">Filtro</p>
             <select class="users-filtro">
                 <option>Diário</option>

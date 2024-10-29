@@ -134,6 +134,12 @@ button{
     border-radius: 15px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
 }
+.today-text{
+    position: absolute;
+    margin-left: -395%;
+    font-size: 25px;
+    margin-top: -60%;
+}
 p3{
     display: flex;
     color: #686868;
@@ -217,6 +223,18 @@ select{
     margin-left: 50%;
     margin-top: 6%;
 }
+.grafico-filtro{
+    margin-top: -1.2%;
+}
+#circulo-2{
+    background-color: #9666E4;
+}
+#circulo-3{
+    background-color: #EFE92B;
+}
+#circulo-4{
+    background-color: #E1410F;
+}
 .catastrofes-containter{
     width: 360px;
     height: 278px;
@@ -252,11 +270,22 @@ select{
 }
 .título-users{
     margin-top: 75%;
-    margin-left: -3.5%;
 }
 .total-users{
     margin-top: 100%;
-    margin-left: -3.5%;
+
+}
+.user-atv-text{
+    position: absolute;
+    margin-top: 85%;
+    margin-left: 6%;
+    color: #686868;
+}
+.user-atv-text-2{
+    position: absolute;
+    margin-top: 110%;
+    margin-left: 6%;
+    color: #686868;
 }
 .filtro-titulo-users{
     margin-left: 60.5%;
@@ -314,9 +343,10 @@ select{
     margin-left: 8.5%;
     width: 50px;
     height: 50px;
-    background-color: #84DA15;
+    background: linear-gradient(to bottom right, #84DA15, #66A910, #3B6109);
     border-radius: 5px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 .continaer-visoes-detalhadas{
     width: 985px;
