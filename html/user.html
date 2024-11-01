@@ -81,7 +81,7 @@
             <div class="line-cont"></div>
         </div>
         <div id="overlay" class="overlay">
-            <div class="modal">
+            <div id="modal" class="modal">
                 <h4>Cadastrar Novo Usuário</h4>
                 <form id="userForm">
                     <label for="username">Nome</label>
@@ -90,10 +90,19 @@
                     <label for="cpf">CPF</label>
                     <input class="CPF" type="number" id="username" name="username" required><br>
 
-                    <label for="cpf">CPF</label>
-                    <input class="CPF" type="number" id="username" name="username" required><br>
-                </form>
+                    <label for="email">E-mail</label>
+                    <input class="email" type="text" id="username" name="username" required><br>
 
+                    <label for="senha">Senha</label>
+                    <input class="senha" type="password" id="username" name="username" required><br>
+
+                    <label for="type">Tipo</label>
+                    <select>
+                        <option></option> 
+                        <option>Administrador</option>
+                        <option>Comum</option>
+                    </select>
+                </form>
             </div>
         </div>
         
