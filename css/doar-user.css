@@ -204,3 +204,32 @@ p4{
     margin-left: 3%;
     font-weight: 500;
 }
+    /* Estilo do mapa */
+    svg {
+        width: 70%;
+        max-width: 700px;
+        height: auto;
+        position: absolute;
+        margin-top: -87%;
+        margin-left: 37%;
+        
+    }
+
+    /* Estilo dos estados */
+    .estado {
+        fill: #c3c3c3; /* Cor padrão */
+        stroke: #ffffff; /* Cor do contorno */
+        stroke-width: 1px;
+        transition: fill 0.3s; /* Transição suave */
+        cursor: pointer; /* Cursor de mão ao passar */
+    }
+
+    /* Cor ao passar o mouse */
+    .estado:hover {
+        fill: #0066cc; /* Cor de hover */
+    }
+
+    /* Cor ao selecionar */
+    .estado.selected {
+        fill: #ff9900; /* Cor de seleção */
+    }
