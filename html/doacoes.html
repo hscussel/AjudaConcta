@@ -68,21 +68,67 @@
         </div>
         <input type="text" placeholder="Pesquise aqui">
         <button>VERSÃO USUÁRIO</button>
-        <button class="add"><img class="img-button" src="../img/Add User Male.svg"></button>
+        <button class="add"><img class="img-button" src="../img/Add User Male.svg" id="openModalButton"></button>
         <div class="container-users">
             <h2>Lista de Doações</h2>
             <div class="user-data">
-                <p4 >ID Doação</p4>
-                <p5 >Doador</p5>
-                <p5 >Tipo</p5>
-                <p5 >Data</p5>
+                <p4>ID Doação</p4>
+                <p5>Doador</p5>
+                <p5>Tipo</p5>
+                <p5>Data</p5>
                 <p5>Local da Entrega</p5>
                 <p5>Destinatário</p5>
                 <p5>Status</p5>
             </div>
             <div class="line-cont"></div>
         </div>
-       
+        <div id="overlay" class="overlay">
+            <div id="modal" class="modal">
+                <h4>Cadastrar Nova Doação</h4>
+                <form id="userForm">
+                    <label for="username">Doador</label>
+                    <input class="nome" type="text" id="username" name="username" required><br>
+
+                    <label for="cpf">CPF</label>
+                    <input class="CPF" type="number" id="username" name="username" required><br>
+
+                    <label for="DATA">Data</label>
+                    <input class="DATA" type="date" id="username" name="username" required><br>
+
+                    <label for="type">Tipo</label>
+                    <select class="type-input">
+                        <option></option>
+                        <option>Alimentos não perecíveis</option>
+                        <option>Água potável</option>
+                        <option>Roupas e Calçados</option>
+                        <option>Cobertores e Roupas de Cama</option>
+                        <option>Produtos de Higiene Pessoal</option>
+                        <option>Produtos de Limpeza</option>
+                        <option>Equipamentos de Proteção</option>
+                    </select>
+
+                    <label for="location">Local da Entrega</label>
+                    <input class='localizar'type="text" id="localizar" list="localizacao">
+                    <datalist id="localizacao">
+                        <option value="">
+                        <option value="">
+                        <option value="">
+                        <option value="">
+                        <option value="">
+                        <option value="">
+                        <option value="">
+                        </datalist>
+                    <label for="destinatario">Destinatário</label>
+                    <input class='destino' type="text">
+                    <button class="Cadastrar" type="submit">Cadastrar</button>
+
+                    <button class="close-modal" type="button" id="closeModalButton">Fechar</button>
+                </form>
+            </div>
+        </div>
+
 </body>
 <script src="../js/admin-nav.js"></script>
+<script src="../js/overlay.js"></script>
+
 </html>

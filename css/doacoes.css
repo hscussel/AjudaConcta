@@ -147,6 +147,7 @@ button{
     margin-top: 5%;
     border: 2px solid #84DA15;
     margin-left: 85%;
+    cursor: pointer;
 }
 h2{
     margin-left: 3%;
@@ -206,3 +207,137 @@ p5{
     color:#686868;
     font-weight: 600;margin-right: 2%;
 margin-left: 5%;}
+#overlay {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); 
+}
+
+.modal {
+    display: none;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    margin-left: 39%;
+    margin-top: 3%;
+    height: 490px;
+}
+h4{
+    position: relative;
+    font-size: 20px;
+    margin-bottom: 10%;
+    justify-content: center;
+    text-align: center;
+}
+.nome, .email, .CPF, .senha,.DATA,.localizar,.destino{
+    margin-top: 10%;
+    position: absolute;
+    margin-left: -18.2%;
+    display: block;
+    background-color: #e6e6e6;
+    height: 30px;
+    width: 280px;
+}
+
+label[for='username']{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: -18.2%;
+}
+.nome{
+    margin-top: 7%;
+}
+label[for='cpf']{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: -18.2%;
+}
+label[for='email']{
+    position: absolute;
+    margin-top: 11.2%;
+    margin-left: -18%;
+}
+.CPF{
+    margin-top: 10%;
+    
+}
+.email{
+    margin-top: 13.2%;
+}
+label[for='senha']{
+    position: absolute;
+    margin-top: 14.4%;
+    margin-left: -18.2%;
+}
+label[for='type']{
+    position: absolute;
+    margin-top: 9.2%;
+    margin-left: -6.3%;
+}
+label[for='DATA']{
+    position: absolute;
+    margin-top: 11%;
+    margin-left: -18.2%;
+}
+.DATA{
+    margin-top: 13%;
+    width: 120px;
+}
+select{
+    position: absolute;
+    border-radius: 5px;
+    margin-left: -6.3%;
+    margin-top: 11.3%;
+}
+.type-input{
+    width: 120px;
+}
+label[for='location']{
+    position: absolute;
+    margin-top: 14.5%;
+    margin-left: -18.2%;
+}
+#localizar{
+    position: absolute;
+    margin-top: 16.5%;
+}
+label[for='destinatario']{
+    position: absolute;
+    margin-top: 19.5%;
+    margin-left: -18.2%;
+}
+.destino{
+    margin-top: 22%;
+}
+.Cadastrar{
+    margin-top: 26%;
+    position: absolute;
+    width: 280px;
+    height: 40px;
+    background-color: #84DA15;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-left: -18%;
+    cursor: pointer;
+    font-size: 15px;
+}
+.close-modal{
+    margin-top: 29%;
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+    color: #7a7a7a;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-left: -14.5%;
+    cursor: pointer;
+}

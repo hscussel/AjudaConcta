@@ -169,6 +169,7 @@ h2{
     height: 30px;
     margin-left: 4px;
     margin-top: 2px;
+    cursor: pointer;
 }
 .user-data {
     display: flex;
@@ -192,4 +193,153 @@ h2{
     background-color: #dfdfdf;
     width: 1000px;
     height: 1px;
+}
+#overlay {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); 
+}
+
+.modal {
+    display: none;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    margin-left: 39%;
+    margin-top: 3%;
+    height: 460px;
+}
+h4{
+    position: relative;
+    font-size: 20px;
+    margin-bottom: 10%;
+    justify-content: center;
+    text-align: center;
+}
+.nome, .email, .CPF, .senha{
+    position: absolute;
+    margin-left: -20%;
+    display: block;
+    background-color: #e6e6e6;
+    height: 30px;
+    width: 280px;
+}
+label[for='username']{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: -20%;
+}
+.nome{
+    margin-top: 7%;
+}
+label[for='cpf']{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: -20%;
+}
+label[for='email']{
+    position: absolute;
+    margin-top: 11.2%;
+    margin-left: -20%;
+}
+.CPF{
+    margin-top: 10%;
+    width: 120px;
+    
+}
+
+.email{
+    margin-top: 14.5%;
+    margin-left: -20%;
+    height: 10px;
+    width: 30px;
+}
+.gravidade-1{
+    position: absolute;
+    margin-top: 14%;
+    font-size: 14px;
+    margin-left: -18%;
+}
+.email-2{
+    margin-top: 14.5%;
+    height: 10px;
+    width: 30px;
+    margin-left: -14%;
+}
+.gravidade-2{
+    position: absolute;
+    margin-top: 14%;
+    font-size: 14px;
+    margin-left: -12%;
+}
+.email-3{
+    margin-top: 14.5%;
+    margin-left: -5%;
+    height: 10px;
+    width: 30px;
+}
+.gravidade-3{
+    position: absolute;
+    margin-top: 14%;
+    font-size: 14px;
+    margin-left: -3%;
+}
+label[for='senha']{
+    position: absolute;
+    margin-top: 17.4%;
+    margin-left: -20%;
+}
+label[for='type']{
+    position: absolute;
+    margin-top: 6.1%;
+    margin-left: -8.3%;
+    width: 200px;
+}
+.senha{
+    margin-top: 16.3%;
+}
+select{
+    position: absolute;
+    border-radius: 5px;
+    margin-left: -8.3%;
+    margin-top: 8.5%;
+}
+.type-input{
+    width: 120px;
+}
+.status-input{
+    margin-top: 20%;
+    margin-left: -20%;
+}
+.Cadastrar{
+    margin-top: 24%;
+    position: absolute;
+    width: 280px;
+    height: 40px;
+    background-color: #84DA15;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-left: -20%;
+    cursor: pointer;
+    font-size: 15px;
+}
+.close-modal{
+    margin-top: 27%;
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+    color: #7a7a7a;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-left: -16.5%;
+    cursor: pointer;
 }
